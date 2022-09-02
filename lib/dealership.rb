@@ -45,4 +45,21 @@ class Dealership
         {"total_value" => total_value, "address" => @address}
     end
 
+    def average_price_of_car
+        (total_value / inventory_count).to_s.gsub()
+    end
+
+    #this hit my two hours mark
+    
+    # def cars_sorted_by_price
+    #     x = 0
+    #     sort_by_price = []
+    #     inventory_count.times do
+    #         cars_value += inventory[x].total_cost
+    #         x += 1
+    #     end
+    #     cars_value
+
+    # end
+
 end
