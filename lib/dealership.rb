@@ -46,7 +46,7 @@ class Dealership
     end
 
     def average_price_of_car
-        (total_value / inventory_count).to_s.gsub()
+        (total_value / inventory_count).to_s
     end
 
     #this hit my two hours mark
